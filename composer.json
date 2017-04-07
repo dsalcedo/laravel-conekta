@@ -9,7 +9,7 @@
             "email": "daniel@backapp.com.mx"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
       "php": ">=5.6.4",
       "ext-curl": "*",
@@ -27,11 +27,6 @@
       "classmap": ["src/"],
       "psr-0": {
         "LaravelConekta": "src/"
-      }
-    },
-    "extra": {
-      "branch-alias": {
-        "master": "0.1"
       }
     }
 }
