@@ -24,10 +24,10 @@
       "phpunit/phpunit": "4.0.*"
     },
     "autoload": {
-      "classmap": ["src/"],
       "psr-0": {
         "LaravelConekta": "src/"
-      }
+      },
+      "classmap": ["src/"]
     },
     "extra": {
       "branch-alias": {

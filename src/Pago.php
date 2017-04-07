@@ -6,15 +6,16 @@ use Exception;
 
 class Pago {
 
-    protected $apiKey = config('conekta.api_key');
-    protected $locale = config('conekta.locale');
-    protected $vesion = '2.0.0';
-
     public function configuracion()
     {
-        Conekta::setApiKey($this->apiKey);
-        Conekta::setApiVersion($this->vesion);
-        Conekta::setLocale($this->locale);
+        $apiKey = config('conekta.api_key');
+        $version= config('conekta.version');
+        $locale = config('conekta.locale');
+
+        Conekta::setApiKey($apiKey);
+        Conekta::setApiVersion($version);
+        Conekta::setLocale($locale);
+
         return;
     }
 
