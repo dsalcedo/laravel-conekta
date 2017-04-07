@@ -28,5 +28,10 @@
       "psr-0": {
         "LaravelConekta": "src/"
       }
-    }
+    },
+    "extra": {
+      "branch-alias": {
+        "master": "0.1"
+      }
+  }
 }
