@@ -12,6 +12,9 @@
     "minimum-stability": "dev",
     "require": {
       "php": ">=5.6.4",
+      "ext-curl": "*",
+      "ext-json": "*",
+      "ext-mbstring": "*",
       "conekta/conekta-php": "^3.2"
     },
     "require-dev": {
@@ -21,6 +24,7 @@
       "phpunit/phpunit": "4.0.*"
     },
     "autoload": {
+      "classmap": ["src/"],
       "psr-0": {
         "LaravelConekta": "src/"
       }
