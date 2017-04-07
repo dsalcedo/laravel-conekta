@@ -6,8 +6,8 @@ use Exception;
 
 class Pago {
 
-    protected $apiKey = '';
-    protected $locale = 'es';
+    protected $apiKey = config('conekta.api_key');
+    protected $locale = config('conekta.locale');
     protected $vesion = '2.0.0';
 
     public function configuracion()
